@@ -19,6 +19,19 @@
 
 #resume-section("PROFESSIONAL EXPERIENCE")
 #resume-work(
+company: "Becton Enterprises, LLC",
+duty: "Software Engineering Intern",
+start: "September 2025",
+end: "Present",
+)[
+- Developed Python based REST APIs for internal and client facing software solutions.
+- Implemented backend logic for enterprise tools using modern Python frameworks.
+- Collaborating in an Agile environment with version control (Git) and structured development pipelines.
+- Working closely with other interns and mentors to collaborate in a startup environment.
+]
+
+
+#resume-work(
   company: "Intel Internship Program", // Shortened company name
   duty: "Semiconductor & Microelectronics Intern", // Shortened duty
   start: "June 2025",
@@ -50,16 +63,6 @@
 - Supported networking infrastructure by managing VoIP systems and cameras within the warehouse.
 ]
 
-#resume-work(
-  company: "MVYSA",
-  duty: "Soccer Referee",
-  start: "March 2019",
-  end: "July 2020",
-)[
-- Enforced safety and game rules, issuing yellow and red cards for fouls, unsporting behavior, and misconduct.
-- Communicated effectively with coaches and players to resolve conflicts and clarify decisions.
-]
-
 #resume-section("EDUCATION")
 #resume-education(
   university: "Wright State University",
@@ -77,30 +80,25 @@
 - Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms
 
 #resume-section("ADDITIONAL SKILLS")
-- *Languages:* Java, Kotlin, Python, Dart, C++, Bash.
-- Linux systems and AWS.
+- *Languages:* Java, Kotlin, Python, Dart, C++, Bash, VHDL.
+- *Tools & Technologies:* Cadence, SolidWorks, Vivado.
+- *Systems & Cloud:* Linux systems, AWS.
 
 #resume-section("PROJECTS AND ACHIEVEMENTS")
 #resume-project(
   title: "PowerTrip",
   duty: "Flutter app to track car fuel/energy usage and costs from a server",
 )[
-  A Flutter application designed to track car fuel/energy usage and associated costs, retrieving data from a server.
+  Flutter + Python/Flask API: tracked car-fuel usage via RESTful endpoints.
 ]
 
 #resume-project(
-  title: "SwingEuchre",
-  duty: "Playable Euchre game",
+  title: "SwingEuchre with Pytrick",
+  duty: "Playable Euchre game with AI opponents",
 )[
-  A playable Euchre game developed using Java Swing.
+  Euchre card game with a graphical interface using Java Swing, and integrated a PyTorch based AI opponent.
 ]
 
-#resume-project(
-  title: "PyTrick",
-  duty: "Euchre AI",
-)[
-  An AI for Euchre developed with PyTorch.
-]
 
 #resume-project(
   title: "Scrambled",
