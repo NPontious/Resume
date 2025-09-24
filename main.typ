@@ -5,10 +5,10 @@
 #show: project.with(
   title: "Resume-ng",
   author: (name: "Nicholas Pontious"),
-  contacts: 
+  contacts:
     (
       "(937) 573-6539",
-      link("mailto:nicholas.pontious@gmail.com", "nicholas.pontious@gmail.com"), 
+      link("mailto:nicholas.pontious@gmail.com", "nicholas.pontious@gmail.com"),
       link("https://github.com/NPontious", "github.com/NPontious"),
     )
 )
@@ -26,8 +26,8 @@ end: "Present",
 )[
 - Developed Python based REST APIs for internal and client facing software solutions.
 - Implemented backend logic for enterprise tools using modern Python frameworks.
-- Collaborating in an Agile environment with version control (Git) and structured development pipelines.
-- Working closely with other interns and mentors to collaborate in a startup environment.
+- Collaborated in an Agile environment with version control (Git) and structured development pipelines.
+- Worked closely with other interns and mentors to collaborate in a startup environment.
 ]
 
 
@@ -37,8 +37,8 @@ end: "Present",
   start: "June 2025",
   end: "July 2025",
 )[
-- Engaged in hands-on training in electronic hardware design, fabrication, and security.
-- Gained knowledge in digital microelectronics, microelectronics fabrication and security, printer circuit board fabrication and design, and cleanroom training.
+- Designed and simulated digital circuits using Cadence and Vivado.
+- Applied knowledge of digital microelectronics by using photolithography in a cleanroom environment.
 ]
 
 #resume-work(
@@ -77,7 +77,7 @@ end: "Present",
 ]
 
 #resume-section("RELEVANT COURSEWORK")
-- Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms
+- Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms, Operating System Internals and Design, Digital Circuit Design (FPGAs)
 
 #resume-section("ADDITIONAL SKILLS")
 - *Languages:* Java, Kotlin, Python, Dart, C++, Bash, VHDL.
