@@ -77,7 +77,7 @@ end: "Present",
 ]
 
 #resume-section("RELEVANT COURSEWORK")
-- Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms, Operating System Internals and Design, Digital Circuit Design (FPGAs)
+- Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms, Operating System Internals & Design, Digital Circuit Design (FPGAs)
 
 #resume-section("ADDITIONAL SKILLS")
 - *Languages:* Java, Kotlin, Python, Dart, C++, Bash, VHDL.
@@ -89,7 +89,7 @@ end: "Present",
   title: "PowerTrip",
   duty: "Flutter app to track car fuel/energy usage and costs from a server",
 )[
-  Flutter + Python/Flask API: tracked car-fuel usage via RESTful endpoints.
+  Flutter + Python/Flask API: tracked car fuel usage via RESTful endpoints.
 ]
 
 #resume-project(
