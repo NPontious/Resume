@@ -1,1 +1,1 @@
-   ![Resume Image](Resume2025.svg)
+   ![Resume Image](Resume2026.svg)
