@@ -24,8 +24,11 @@ jobs:
       - name: Compile Typst to PDF
         run: typst compile main.typ Resume.pdf
 
+      - name: Compile Typst to SVG
+        run: typst compile main.typ Resume.svg
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-compile Resume.pdf"
-          file_pattern: "Resume.pdf"
+          commit_message: "chore: auto-compile Resume.pdf and Resume.svg"
+          file_pattern: "Resume.pdf Resume.svg"
