@@ -1,0 +1,31 @@
+name: Compile Resume
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.typ'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+
+      - name: Compile Typst to PDF
+        run: typst compile main.typ Resume.pdf
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-compile Resume.pdf"
+          file_pattern: "Resume.pdf"
