@@ -5,7 +5,6 @@
   author: (name: "Nicholas Pontious"),
   contacts:
     (
-      "(937) 573-6539",
       link("mailto:nicholas.pontious@gmail.com", "nicholas.pontious@gmail.com"),
       link("https://github.com/NPontious", "github.com/NPontious"),
     )
