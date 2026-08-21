@@ -10,10 +10,22 @@
     )
 )
 
-#set text(size: 0.9em)
+#set text(size: 0.85em)
 
 
 #resume-section("PROFESSIONAL EXPERIENCE")
+
+#resume-work(
+  company: "Wright-Patt Credit Union",
+  duty: "API Developer Intern",
+  start: "May 2026",
+  end: "Present",
+)[
+- Built production-ready RESTful APIs in Go using the Gin framework to connect and integrate enterprise applications.
+- Managed API deployments and testing on Linux systems, applying core DevOps practices to ensure reliable releases.
+- Monitored overall API performance and configured Kong for basic traffic routing and security.
+- Maintained clear technical documentation and participated in daily standups to track the progress of stories and epics.
+]
 
 #resume-work(
   company: "Wright State University",
@@ -27,15 +39,13 @@
 ]
 
 #resume-work(
-company: "Becton Enterprises, LLC",
-duty: "Software Engineering Intern",
-start: "September 2025",
-end: "December 2025",
+  company: "Becton Enterprises, LLC",
+  duty: "Software Engineering Intern",
+  start: "September 2025",
+  end: "December 2025",
 )[
-- Developed Python based REST APIs for internal and client facing software solutions.
-- Implemented backend logic for enterprise tools using modern Python frameworks.
-- Collaborated in an Agile environment with version control (Git) and structured development pipelines.
-- Worked closely with other interns and mentors to collaborate in a startup environment.
+- Completed a self-paced technical training curriculum focused on Python, RESTful API design, version control (Git), and Agile development.
+- Interfaced directly with the CEO in weekly syncs to review progress on technical learning assignments and discuss software development concepts.
 ]
 
 #resume-work(
@@ -44,9 +54,9 @@ end: "December 2025",
   start: "August 2024",
   end: "December 2025",
 )[
-- Assisted in delivering Java programming lessons to students, explaining complex concepts such as object-oriented programming, data structures, algorithms, and exception handling.
-- Graded assignments, providing detailed feedback to help students understand errors and improve their understanding of Java concepts.
-- Held office hours for one-on-one tutoring, offering personalized assistance to students struggling with programming challenges or course material.
+- Instructed students in Java fundamentals, including OOP, data structures, algorithms, and exception handling.
+- Graded assignments and provided detailed feedback to improve student comprehension.
+- Hosted office hours to provide personalized tutoring for complex programming challenges.
 ]
 
 
@@ -66,15 +76,14 @@ end: "December 2025",
 - Data Structures & Algorithms, Operating Systems Concepts & Usage, Computer Organization, Digital System Design, Computer Science I & II, Discrete Structures & Algorithms, Operating System Internals & Design
 
 #resume-section("ADDITIONAL SKILLS")
-- *Languages:* Java, Kotlin, Python, Dart, C++, Bash.
-- *Systems & Cloud:* Linux systems, AWS.
+- *Languages:* Java, Kotlin, Python, Dart, C++, Go, Bash.
+- *Systems & Cloud:* Linux systems, AWS, DevOps, Kong, Grafana.
 
-#resume-section("PROJECTS AND ACHIEVEMENTS")
+#resume-section("PROJECTS")
 #resume-project(
   title: "QJAM (2026 WSU Hackathon)",
   duty: "Real-time collaborative music queueing web app",
 )[
-  Award Winner: Won "Reynolds and Reynold's Most Likely to Ship".
   - Developed a high-performance backend using FastAPI and WebSockets for real-time state sync across clients.
   - Implemented reproducible development environments using Nix and containerized with Docker.
   - Collaborated with a team of 3 to ship a functional MVP within the 24-hour hackathon timeframe.
@@ -84,31 +93,17 @@ end: "December 2025",
   title: "PowerTrip",
   duty: "Flutter app to track car fuel/energy usage and costs from a server",
 )[
-  Flutter + Python/Flask API: tracked car fuel usage via RESTful endpoints.
+  - Flutter + Python/Flask API: tracked car fuel usage via RESTful endpoints.
 ]
 
 #resume-project(
   title: "SwingEuchre with Pytrick",
   duty: "Playable Euchre game with AI opponents",
 )[
-  Euchre card game with a graphical interface using Java Swing, and integrated a PyTorch based AI opponent.
+  - Euchre card game with a graphical interface using Java Swing, and integrated a PyTorch based AI opponent.
 ]
 
-#resume-project(
-  title: "Scrambled",
-  duty: "Word unscrambling game",
-)[
-  A word unscrambling game created in Godot.
-]
-
-#resume-project(
-  title: "2024 WSU Game Jam Winner",
-)[
-  Awarded both the TAs' choice and students' choice at the 2024 WSU Game Jam.
-]
-
-#resume-project(
-  title: "2025 Hackathon Award Winner",
-)[
-  Team won two awards at the 2025 WSU Hackathon.
-]
+#resume-section("AWARDS & ACHIEVEMENTS")
+- *2026 WSU Hackathon:* Won the Reynolds & Reynolds "Most Likely to Ship" award.
+- *2025 WSU Hackathon:* Team won two overall awards.
+- *2024 WSU Game Jam:* Awarded both the TAs' Choice and Students' Choice.
