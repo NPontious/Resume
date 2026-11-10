@@ -36,7 +36,7 @@
   end: "Present",
 )[
 - Decomposed system safety data collection requirements into structured data models by analyzing military standards (MIL-STD-882E, DI-SESS-80255B).
-- Implemented a full-stack web application (Go, PostgreSQL, Vite/Tailwind) featuring automated Playwright E2E testing for Applied Research Solutions.
+- Implemented a full-stack web application (React, TypeScript, Go, PostgreSQL, Tailwind) featuring automated Playwright E2E testing for Applied Research Solutions.
 - Collaborated with an engineering team, participating in bi-weekly standups and stakeholder reviews to ensure completion of delegated milestones.
 ]
 
@@ -77,8 +77,8 @@
 
 
 #resume-section("ADDITIONAL SKILLS")
-- *Languages:* Java, Python, C++, Go, Kotlin.
-- *Frameworks & Libraries:* Jetpack Compose, Tailwind, Playwright, GORM.
+- *Languages:* Java, Python, TypeScript, Go, C++, Kotlin.
+- *Frameworks & Libraries:* React, Jetpack Compose, Tailwind, Playwright, GORM.
 - *Systems & Tools:* Linux, AWS, PostgreSQL, SQL Server, Docker, GitLab, Kong, Grafana, Vite, DevOps.
 
 #resume-section("PROJECTS")
